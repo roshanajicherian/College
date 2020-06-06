@@ -1,24 +1,25 @@
 #include <stdio.h>
 #include <stdbool.h>
-int factorial[21];
+typedef long long int lli;
+lli factorial[21];
 void preCompute()
 {
     factorial[0] = 1, factorial[1] = 1;
-    for (int i = 2; i <= 20; i++)
+    for (lli i = 2; i <= 20; i++)
         factorial[i] = factorial[i - 1] * i;
 }
-bool isPrime(int n)
+bool isPrime(lli n)
 {
-    for (int i = 2; i * i <= n; i++)
+    for (lli i = 2; i * i <= n; i++)
     {
         if (n % i == 0)
             return false;
     }
     return true;
 }
-int nextPrime(int n)
+lli nextPrime(lli n)
 {
-    int prime = n;
+    lli prime = n;
     while (true)
     {
         prime++;
@@ -26,10 +27,10 @@ int nextPrime(int n)
             return prime;
     }
 }
-void findSeriesResult(int n)
+void findSeriesResult(lli n)
 {
-    int numerator = 2, denominator = 3;
-    int i = 0;
+    lli numerator = 2, denominator = 3;
+    lli i = 0;
     float result = 0;
     for (i = 2; i <= n; i++)
     {
@@ -43,7 +44,7 @@ void findSeriesResult(int n)
 int main()
 {
     preCompute();
-    int n = 0;
+    lli n = 0;
     printf("Enter n :");
     scanf("%d", &n);
     findSeriesResult(n);
