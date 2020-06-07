@@ -1,3 +1,5 @@
+//Program : Question 22 (Program to reverse the string)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <string.h>
 #define MAX 1001

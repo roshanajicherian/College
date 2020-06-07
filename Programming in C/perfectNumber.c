@@ -1,3 +1,5 @@
+//Program : Question 14 (To check if a numebr is a perfect number or not)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 bool checkPerfect(int n)

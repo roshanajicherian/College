@@ -1,4 +1,4 @@
-//Soltuion to the print patter problem
+//Program : Question 5 (Print pattern)
 //Author : Roshan Aji Cherian
 #include <stdio.h>
 int main()

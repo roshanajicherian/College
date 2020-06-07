@@ -1,3 +1,5 @@
+//Program : Question 19 ( output the sentence with every word of the sentence starting with upper case)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <string.h>
 #define MAX 1000

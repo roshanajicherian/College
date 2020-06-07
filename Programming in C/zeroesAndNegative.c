@@ -1,3 +1,5 @@
+//Program : Question 24 (Count zeroes and negative numbers in an arraqy )
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #define MAX 1000
 int main()

@@ -1,3 +1,5 @@
+//Program : Question 27 (Find sum of n terms of series)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 typedef long long int lli;
 lli factorial[21];

@@ -1,3 +1,5 @@
+//Program : Question 21 (To calculate the areas of various shapes)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #define PI 3.14
 void circleArea()

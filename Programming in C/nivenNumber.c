@@ -1,3 +1,5 @@
+//Program : Question 17 (Program to check if the given number is Niven or not)
+//Author: Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 bool checkNiven(int n)

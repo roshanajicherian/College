@@ -1,3 +1,5 @@
+//Program : Using Bubble Sort sort an array in ascending order
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 void swap(int *x, int *y)
 {

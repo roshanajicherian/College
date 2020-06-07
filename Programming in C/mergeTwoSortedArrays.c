@@ -1,3 +1,5 @@
+//Program : Question 30 (Merge two sorted arrays)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 void mergeArrays(int A[], int B[], int finalArray[], int n1, int n2)
 {

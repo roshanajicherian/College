@@ -1,3 +1,5 @@
+//Program : Question 15 (To check if a numebr is a Strong number or not)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 typedef long long int lli;

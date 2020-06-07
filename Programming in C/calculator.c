@@ -1,3 +1,5 @@
+//Program : Question 12 (Implement menu driven calculator)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdlib.h>
 int main()

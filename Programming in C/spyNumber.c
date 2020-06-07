@@ -1,3 +1,5 @@
+//Program : Question 16 (To check if a numebr is a Spy number or not)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 bool checkSpy(int n)

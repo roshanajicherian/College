@@ -1,3 +1,5 @@
+//Program : Question 26 (Generate sum of n terms of series)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 typedef long long int lli;

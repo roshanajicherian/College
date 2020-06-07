@@ -1,3 +1,5 @@
+//Program : Question 25(Count vowels,consonants,words,question marks)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <string.h>
 #define MAX 1000

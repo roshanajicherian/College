@@ -1,3 +1,5 @@
+//Program : Question 31 (Implement binary search)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 int binarySearch(int A[], int n, int key)
 {

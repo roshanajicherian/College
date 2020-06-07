@@ -1,3 +1,5 @@
+//Program : Question 23 (Check if a year is a leap year or not)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 bool isLeapYear(int year)

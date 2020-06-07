@@ -1,3 +1,5 @@
+//Program : Question 7 (To find the smallest number in an array)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <limits.h>
 int main()

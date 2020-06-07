@@ -1,3 +1,5 @@
+//Program : Question 28 (Concatate two strings)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <string.h>
 #define MAX 1000

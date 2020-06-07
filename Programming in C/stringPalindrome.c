@@ -1,3 +1,5 @@
+//Program : Question 22 (Check if a string is a plaindrome)
+//Author: Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>

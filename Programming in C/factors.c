@@ -1,3 +1,5 @@
+//Program : Question 10 (Print factors of a number)
+//Name : Roshan Aji Cherian
 #include <stdio.h>
 void findFactors(int n)
 {

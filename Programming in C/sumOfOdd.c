@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Program to find the sum of first n odd numbers
+//Program : Question 3 (Find the sum of first n odd numbers)
 //Author: Roshan Aji Cherian
 
 int main()

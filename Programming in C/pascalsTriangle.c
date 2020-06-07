@@ -1,4 +1,4 @@
-//Program to generate the Pascal's Triangle
+//Program: Question 6 (To generate the Pascal's Triangle)
 //Author : Roshan Aji Cherian
 #include <stdio.h>
 void generatePascalsTriangle(int n)

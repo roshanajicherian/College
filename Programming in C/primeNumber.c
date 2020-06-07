@@ -1,3 +1,5 @@
+//Program: Question 9 (Check if a numbe is a prime number or not)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 bool checkPrime(int n)

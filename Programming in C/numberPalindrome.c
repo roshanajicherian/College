@@ -1,3 +1,5 @@
+//Program : Question 4 (Check if a number is a plaindrome or not)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 #include <stdbool.h>
 int reverseNumber(int n)

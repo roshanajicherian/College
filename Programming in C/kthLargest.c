@@ -1,3 +1,5 @@
+//Program : Question 30 (Program to find the kth largest number of an array)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 void swap(int *x, int *y)
 {

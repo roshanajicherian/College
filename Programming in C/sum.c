@@ -1,4 +1,5 @@
-//Soltion to Question 20
+//Program : Question 20 (Caluclte sum of n numbers under certain constrains)
+//Author : Roshan Aji Cherian
 #include <stdio.h>
 int findSum(int n)
 {
