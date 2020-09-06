@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 int linearSearch(int A[], int n, int key)
 {
     int i = 0;
