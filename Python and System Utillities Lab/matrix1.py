@@ -8,8 +8,8 @@ for i in range(rows):
 print(matrix)
 # Printing fourth row elements
 print("The fourth row element are :\n")
-print(matrix[1])
+print(matrix[3])
 # Print third column elements
 print("The third column elements are : \n")
 for i in range(rows):
-    print(matrix[i][1])
+    print(matrix[i][2])
