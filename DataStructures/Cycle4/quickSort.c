@@ -1,51 +1,55 @@
 #include <stdio.h>
+#define MAX_SIZE 100
 void swap(int *a, int *b)
 {
     int t = *a;
     *a = *b;
     *b = t;
 }
-int partition(int arr[], int low, int high)
+int partition(int A[], int low, int high)
 {
-    int pivot = arr[high];
+    int pivot = A[high];
     int i = (low - 1);
 
     for (int j = low; j <= high - 1; j++)
     {
-        if (arr[j] < pivot)
+        if (A[j] < pivot)
         {
             i++;
-            swap(&arr[i], &arr[j]);
+            swap(&A[i], &A[j]);
         }
     }
-    swap(&arr[i + 1], &arr[high]);
+    swap(&A[i + 1], &A[high]);
     return (i + 1);
 }
 
-void quickSort(int arr[], int low, int high)
+void quickSort(int A[], int low, int high)
 {
     if (low < high)
     {
-        int pi = partition(arr, low, high);
+        int pi = partition(A, low, high);
 
-        quickSort(arr, low, pi - 1);
-        quickSort(arr, pi + 1, high);
+        quickSort(A, low, pi - 1);
+        quickSort(A, pi + 1, high);
     }
 }
 
-void printArray(int arr[], int size)
+void printArray(int A[], int size)
 {
     int i;
     for (i = 0; i < size; i++)
-        printf("%d ", arr[i]);
+        printf("%d ", A[i]);
     printf("\n");
 }
 int main()
 {
-    int arr[] = {10, 7, 8, 9, 1, 5};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    quickSort(arr, 0, n - 1);
+    int n = 0, i = 0;
+    scanf("%d", &n);
+    int A[MAX_SIZE];
+    for (i = 0; i < n; i++)
+        scanf("%d", &A[i]);
+    quickSort(A, 0, n - 1);
     printf("Sorted array: \n");
-    printArray(arr, n);
+    printArray(A, n);
     return 0;
 }
