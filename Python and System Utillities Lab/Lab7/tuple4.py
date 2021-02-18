@@ -1,7 +1,7 @@
-n = int(input("Enter the number of element in the tuple : "))
-l = []
-for i in range(n):
-    x = int(input())
-    l.append(x)
-tuple1 = tuple(l)
-print(tuple1)
+x=int(input("Enter the number of elements : "))
+t1=()
+for i in range(x):
+    k=int(input())
+    t2=(k,)
+    t1+=t2
+print(t1)

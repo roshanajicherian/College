@@ -1,7 +1,8 @@
 d1={}
 x=int(input("Enter number of key value pairs : "))
 for i in range(x):
-    key=input()
-    value=input()
+    key=input("Key : ")
+    value=input("Value : ")
     d1[key]=value
-print(d1.items())
+for key,value in d1.items():
+    print(key,value)

@@ -5,4 +5,8 @@ print("Enter the matrix : ")
 for i in range(rows):
     for j in range(columns):
         matrix[i][j] = int(input())
-print("The matrix is : ", matrix)
+print("The matrix is : ")
+for i in range(rows):
+    for j in range(columns):
+        print(matrix[i][j],end=" ")
+    print()

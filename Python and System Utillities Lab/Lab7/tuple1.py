@@ -7,5 +7,5 @@ print(tuple1)
 
 tuple2 = ("Roshan", "GECBH", "2023")
 # Unpacking a tuple
-(name, college, gradYear) = tuple2
+name, college, gradYear = tuple2
 print(name, college, gradYear)

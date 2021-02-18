@@ -14,4 +14,8 @@ result = [[0 for i in range(columns)] for j in range(rows)]
 for i in range(rows):
     for j in range(columns):
         result[i][j] = matrix1[i][j]+matrix2[i][j]
-print("The sum of the matrix is : ", result)
+print("The sum is ")
+for i in range(rows):
+    for j in range(columns):
+        print(result[i][j],end=" ")
+    print()

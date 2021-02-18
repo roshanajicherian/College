@@ -1,5 +1,5 @@
 d = {}
-n = int(input("Enter the number of values to be inserted in the dictionary : "))
+n = int(input("Enter the number of values : "))
 for i in range(n):
     key = int(input("Enter the key : "))
     value = int(input("Enter the value : "))

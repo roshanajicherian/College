@@ -16,7 +16,7 @@ print(car1 == car2)
 s1 = str(car1)
 print(s1)
 print("The keys of the dictionary is : ", car1.keys())
-print("The values of the dcitionary is : ", car2.keys())
+print("The values of the dcitionary is : ", car2.values())
 k = {1, 2, 3, 'a'}
 d1 = dict.fromkeys(k, 100)
 print(d1)

@@ -2,15 +2,15 @@
 d1 = {}
 d2 = {}
 
-n = int(input("Enter the number of values to be inserted in the dictionary 1 : "))
+n = int(input("Enter the number of values in dictionary 1 : "))
 for i in range(n):
-    key = int(input("Enter the key : "))
-    value = int(input("Enter the value : "))
+    key = int(input("Key : "))
+    value = int(input("Value : "))
     d1[key] = value
-n = int(input("Enter the number of values to be inserted in the dictionary 2 : "))
+n = int(input("Enter the number of values in dictionary 2 : "))
 for i in range(n):
-    key = int(input("Enter the key : "))
-    value = int(input("Enter the value : "))
+    key = int(input("Key : "))
+    value = int(input("Value : "))
     d1[key] = value
 
 d3 = d1

@@ -1,4 +1,4 @@
-n = int(input("Enter the number of element in the tuple : "))
+n = int(input("Enter the number of elements : "))
 l = []
 for i in range(n):
     x = int(input())
@@ -10,5 +10,5 @@ for i in tuple1:
 j = 0
 for i in l:
     if i > 1:
-        print(j)
+        print(j,i)
     j += 1
