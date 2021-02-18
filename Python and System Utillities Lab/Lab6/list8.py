@@ -1,7 +1,7 @@
-str1 = input("Enter the string : ")
-punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
-str2 = ""
-for i in str1:
-    if i not in punctuations:
-        str2 = str2+i
-print(str2)
+import string
+s1=input()
+s2=""
+for i in s1:
+    if i not in string.punctuation:
+        s2+=i
+print(s2)

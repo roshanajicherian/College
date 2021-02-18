@@ -1,11 +1,9 @@
-d = {}
-n = int(input("Enter the number of values to be inserted in the dictionary : "))
-for i in range(n):
-    key = int(input("Enter the key : "))
-    value = int(input("Enter the value : "))
-    d[key] = value
-x = int(input("Enter the key-value to be searched for : "))
-if x in d.keys():
-    print("The key is present in the dictionary")
-else:
-    print("The key is not present in the dictionary")
+d1={'First Name': 'Roshan','Last Name': 'Aji Cherian','College':'GECBH',2:10}
+key=input()
+if key.isdigit():
+    key=int(key)
+print(d1)
+if key in d1.keys():
+    print("Yes")
+else: 
+    print("No")

@@ -1,7 +1,7 @@
-d = {}
-n = int(input("Enter the number of values to be inserted in the dictionary : "))
-for i in range(n):
-    key = int(input("Enter the key : "))
-    value = int(input("Enter the value : "))
-    d[key] = value
-print(d)
+d1={}
+x=int(input("Enter number of key value pairs : "))
+for i in range(x):
+    key=input()
+    value=input()
+    d1[key]=value
+print(d1.items())

@@ -1,18 +1,18 @@
-lowerCaseCount = 0
-upperCaseCount = 0
-digitCount = 0
-specialSymbolCount = 0
+lower = 0
+upper = 0
+digit = 0
+symbol = 0
 
-s = input('Enter the string : ')
-for i in s:
-    if i >= 'a' and i <= 'z':
-        lowerCaseCount += 1
-    elif i >= 'A' and i <= 'Z':
-        upperCaseCount += 1
-    elif i >= '0' and i <= '9':
-        digitCount += 1
+s1 = input('Enter the string : ')
+for i in s1:
+    if i.isupper():
+        upper+=1
+    elif i.islower():
+        lower+=1
+    elif i.isdigit():
+        digit+=1
     else:
-        specialSymbolCount += 1
+        symbol+=1
 
 print("Lower Case : {}\nUpper Case : {}\nDigits : {}\nSymbols : {}".format(
-    lowerCaseCount, upperCaseCount, digitCount, specialSymbolCount))
+    lower, upper, digit, symbol))
