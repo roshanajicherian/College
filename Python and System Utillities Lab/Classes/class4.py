@@ -3,10 +3,10 @@ class Number:
         self.value=value
     def printNumber(self):
         print(self.value)
-    def __sub__(self,other):
-        return self.value-other.value
+    def __truediv__(self,other):
+        return (self.value/other.value)
         
 
 no1=Number(10)
 no2=Number(5)
-print(no1-no2)
+print(no1/no2)
