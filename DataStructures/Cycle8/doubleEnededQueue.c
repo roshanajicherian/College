@@ -64,7 +64,6 @@ void insertRear()
         rear += 1;
     deque[rear] = x;
 }
-//TODO CHECK HERE
 void deleteFront()
 {
     if (isEmpty())

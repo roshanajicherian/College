@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MAX_SIZE 100
-void selctionSort(int A[], int n)
+void selectionSort(int A[], int n)
 {
 
     int i = 0, j = 0, minimumIndex = 0;
@@ -29,6 +29,6 @@ int main()
     scanf("%d", &n);
     for (int i = 0; i < n; i++)
         scanf("%d", &A[i]);
-    selctionSort(A, n);
+    selectionSort(A, n);
     return 0;
 }
