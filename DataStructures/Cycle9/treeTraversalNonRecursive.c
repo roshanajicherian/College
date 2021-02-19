@@ -66,36 +66,39 @@ void preOrder(struct Node *root)
     }
 
 }
-void postOder(struct Node *root)
-{
-    // ! WRONG
-    // struct Node *q,*ptr=root;
-    // if(ptr==NULL)
-    // {
-    //     printf("The tree is empty\n");
-    //     return;
-    // }
-    // q=root;
-    // while(true)
-    // {
-    //     while(ptr->left!=NULL)
-    //     {
-    //         stackPush(ptr);
-    //         ptr=ptr->left;
-    //     }
-    //     while(ptr->right!=NULL || ptr->right==q)
-    //     {
-    //         printf("%d ",ptr->data);
-    //         q=ptr;
-    //         if(isEmpty())
-    //             return;
-    //         ptr=stackPop();
-    //     }
-    //     stackPush(ptr);
-    //     ptr=ptr->right;
-
-    // }
-}
+struct Node* peek() 
+{ 
+    if (isEmpty()) 
+        return NULL; 
+    return stack[top];
+} 
+void postOrder(struct Node* root) 
+{ 
+    if (root == NULL) 
+        return; 
+    do
+    { 
+        while (root) 
+        { 
+            if (root->right) 
+                stackPush(root->right); 
+            stackPush(root); 
+            root = root->left; 
+        } 
+        root = stackPop(); 
+        if (root->right && peek(stack) == root->right) 
+        { 
+            stackPop(); 
+            stackPush(root); 
+            root = root->right; 
+        } 
+        else
+        { 
+            printf("%d ", root->data); 
+            root = NULL; 
+        } 
+    } while (!isEmpty()); 
+} 
 void inOrder(struct Node *root)
 {
     if(root==NULL)
@@ -134,6 +137,6 @@ int main()
     printf("\nInorder : ");
     inOrder(root);
     printf("\nPostoder : ");
-    postOder(root);
+    postOrder(root);
     return 0;
 }

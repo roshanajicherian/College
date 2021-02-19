@@ -16,7 +16,7 @@ int printSolution(int dist[], int n)
 { 
     printf("Vertex   Distance from Source\n"); 
     for (int i = 0; i < V; i++) 
-        printf("%d tt %d\n", i, dist[i]); 
+        printf("%d  %d\n", i, dist[i]); 
 } 
   
 void dijkstra(int graph[V][V], int src) 

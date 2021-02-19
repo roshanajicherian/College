@@ -59,7 +59,7 @@ void BFSearch(int v){
     state[v] = waiting;
     while(!EmptyQueue()){
         v = DeleteQueue();
-        printf("%d",v);
+        printf("%d ",v);
         state[v] = visited;
         for(i = 0; i<n; i++){
             if(adjmat[v][i]==1 && state[i]==initial){
