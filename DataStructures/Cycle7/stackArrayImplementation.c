@@ -40,7 +40,7 @@ void TopElement()
         printf("Stack is empty\n");
         return;
     }
-    printf("TOP = %d", top);
+    printf("TOP = %d", stackArray[top]);
 }
 void isEmptyUtil()
 {

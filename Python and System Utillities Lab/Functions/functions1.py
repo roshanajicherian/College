@@ -10,19 +10,22 @@ def findMedian(l1):
         mid = (listLenth//2) + 1
         return l1[mid]
 
-# def findMode(l1):
-#     len = len(l1)
-#     highest = 0
-#     highfreq = 0
-#     for k in sortedLstC:
-#         freq = 0
-#         for l in sortedLstC:
-#             if l == k:
-#                 freq += 1
-#             if freq > highfreq:
-#     highest = k
-#     highfreq = freq
-#     return highest
+def findMode(l1):
+    frequencyDictionary={}
+    modeList=[]
+    for i in l1:
+        frequencyDictionary.setdefault(i,0)
+        frequencyDictionary[i]+=1
+    maxFrequency=max(frequencyDictionary.values())
+    for key,value in frequencyDictionary.items():
+        if value==maxFrequency:
+            modeList.append(key)
+    if len(modeList)==len(l1):
+        print("No Mode")
+    else:
+        print(modeList)
+
+
 
 l1=[int(x) for x in input().split()]
 l1.sort()

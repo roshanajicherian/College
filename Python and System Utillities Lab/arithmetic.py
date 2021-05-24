@@ -1,6 +1,6 @@
 a = int(input("Enter the first number : "))
 b = int(input("Enter the second number : "))
-print("""Eneter the operation to perform : 
+print("""Enter the operation to perform : 
 1.Addition
 2.Subtraction
 3.Multiplication

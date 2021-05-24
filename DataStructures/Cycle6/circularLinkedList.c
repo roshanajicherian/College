@@ -118,7 +118,7 @@ int main()
     int choice = 0;
     printf("Enter your choice : \n");
     printf("1.Insert\n2.Display\n3.Delete\n4.Exit\n");
-    printf("\nChoice : ");
+    printf("\nEnter your choice : \n");
     scanf("%d", &choice);
     while (choice != 4)
     {

@@ -54,7 +54,7 @@ struct Node* search(struct Node* root, int key)
 {
     if(root==NULL)
     {
-        printf("Not found\n");
+        printf("Tree is empty\n");
         return NULL;
     }
     if(key<root->data)

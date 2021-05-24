@@ -1,20 +1,19 @@
 class Shop:
-    def __init__(self,itemId,itemName,quantity):
-        self.itemId=itemId
-        self.itemName=itemName
-        self.quantity=quantity
-    def add(self,units):
-        self.quantity+=units
-    def sell(self,units):
-        self.quantity-=units
-    def totalQuantity():
-        return A.quantity+B.quantity
-
-A=Shop(1,"A",10)
-B=Shop(2,"B",20)
-print(Shop.totalQuantity())
-A.add(10)
-B.add(10)
-print(Shop.totalQuantity())
-A.sell(20)
-print(Shop.totalQuantity())
+	totalItems=0
+	def __init__(self,itemId,itemName,quantity):
+		self.itemId=itemId
+		self.itemName=itemName
+		self.quantity=quantity
+		Shop.totalItems+=quantity
+	def buy(self,addAmount):
+		self.quantity+=addAmount
+		Shop.totalItems+=addAmount
+	def sell(self,remove):
+		self.quantity-=remove
+		Shop.totalItems-=remove
+	def total_items():
+		return Shop.totalItems
+x=Shop(1,"Apples",20)
+print(Shop.total_items())
+y=Shop(2,"Oranges",30)
+print(Shop.total_items())

@@ -7,10 +7,10 @@ def matrixOutput(matrix,r,c):
         print("\n")
 
 def matrixProduct(matrix1,matrix2,r1,c1,r2,c2):
-    if(c1==r1):
-        matrix3=[[0 for i in range(c1)]for j in range(r1)]
+    if(c1==r2):
         r3=r1
         c3=c2
+        matrix3=[[0 for i in range(c3)]for j in range(r3)]
         for i in range(len(matrix1)):
             for j in range(len(matrix2[0])):
                 for k in range(len(matrix2)):
