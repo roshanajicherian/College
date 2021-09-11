@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
-public class pgm7 {
+public class pgm8 {
     static int addNumbers()
     {
         Scanner sc=new Scanner(System.in);

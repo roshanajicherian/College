@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pgm6 {
+public class pgm7 {
     static int findFactorial(int n)
     {
         if (n==0)
