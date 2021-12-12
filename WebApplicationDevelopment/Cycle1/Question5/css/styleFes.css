@@ -1,0 +1,19 @@
+body
+{
+  color : blue;
+  font-family: Lucida Console,Helvetica, sans-serif 
+}
+body
+{
+  background-image: url("../img/backimage.jpg");
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+a
+{
+  text-decoration: none;
+}
+.FestivalsList
+{
+  padding: 50px 50px;
+}

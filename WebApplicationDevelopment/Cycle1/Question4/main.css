@@ -1,0 +1,29 @@
+.sub-heading
+{
+    color: red;
+    margin-left: 20px;
+}
+div
+{
+    padding: 10px 10px 10px;
+    margin-left: 10px;
+}
+#fname,#lname,#email,#education,#resume-upload,
+#address1,#address2,#city,#state,#zip,#code,#phone,
+#country,#company-name,#job-title,#duration
+{
+    margin-left: 20px;
+}
+#address2,#country,#city,#state,#zip
+{
+    margin-left: 96px;
+    margin-top: 15px;
+}
+#code
+{
+    width: 50px;
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -25,5 +25,8 @@ class Shipment extends BoxWeight
     }
 }
 public class pgm11 {
-    Shipment newpackage=new Shipment("ABC01", 100, 100);
+    public static void main(String[] args)
+    {
+        Shipment newpackage=new Shipment("ABC01", 100, 100);
+    }
 }

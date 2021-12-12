@@ -1,0 +1,6 @@
+Design a website for kerala tourism contains following informations
+1.Separate pages for festivals,images,videos,hotels,plan trip,reviews(All are hyperlinks).....
+2.Home page contains moving caption“welcome to gods own country”
+3.Each page contains heading with attractive font character and separate background
+4.Festival page contains iternal hyperlik to individual festival
+5.Plan trip contains application form for collecting user information

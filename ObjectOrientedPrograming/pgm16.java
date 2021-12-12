@@ -11,6 +11,6 @@ public class pgm16 extends Applet {
     }
 }
 /*
-<applet code="app2.class" height=500 width=500>
+<applet code="pgm16.class" height=500 width=500>
 </applet>
 */
