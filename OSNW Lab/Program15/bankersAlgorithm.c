@@ -69,12 +69,12 @@ int main()
             break;
         }
     }
-    if(isSafe = 1)
+    if (isSafe == 1)
     {
         printf("The follwing is the safe sequence : ");
         for (int i = 0; i < process - 1; i++)
             printf(" P%d ->", answer[i]);
-            printf(" P%d", answer[process - 1]);
+        printf(" P%d", answer[process - 1]);
     }
 
     return 0;
