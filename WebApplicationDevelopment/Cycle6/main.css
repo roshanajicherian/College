@@ -1,0 +1,37 @@
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+header,.todo-input
+{
+    text-align: center;
+}
+body
+{
+    padding: 15px;
+    margin: 15px;
+}
+.input-data
+{
+    width: 50%;
+    height: 40px;
+}
+.todo-input input
+{
+    height: 40px;
+}
+.to-do-contents
+{
+    margin-top: 80px;
+    padding-left: 10px;
+}
+li
+{
+    width: 25%;
+    list-style-type: none;
+    border: 1px solid black;
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-top: 23px;
+}
