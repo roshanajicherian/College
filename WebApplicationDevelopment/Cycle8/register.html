@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HomePage | User Registration</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Registration Form</h1>
+        </header>
+        <p>Please complete the follwing form to register with our site.</p>
+        <br>
+        <form method="post">
+            <div class="form-group">
+                <label for="userNameInput">User Name</label>
+                <input type="text" name="userName" id="userNameInput">
+                <span id="usernameDisplay"></span>
+            </div>
+            <div class="form-group">
+                <label for="passwordInput">Password</label>
+                <input type="password" name="password" id="passwordInput">
+                <span id="passwordDisplay"></span>
+            </div>
+            <div class="form-group">
+                <label for="packageSelector">Select a package</label>
+                <select name="package" id="packageSelector">
+                    <option value="Monthly">1 Month (Rs 200)</option>
+                    <option value="Annual">1 Year (Rs 1900)</option>
+                    <option value="2 Year">2 Year (Rs 3800)</option>
+                </select>
+                <span id="offerDisplay"></span>
+            </div>
+            <div class="form-group">
+                <label for="terms">Click here to agree to terms and condtions</label>
+                <input type="checkbox" name="terms" id="terms">
+                <div class="text-center"id="termsDisplay"></div>
+            </div>
+            <div class="text-center">
+                <input type="submit" id="registerButton" value="Register Now">
+            </div>
+        </form>
+    </div>
+    <script src="registerScript.js"></script>
+</body>
+</html>
