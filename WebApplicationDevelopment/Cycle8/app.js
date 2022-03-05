@@ -18,6 +18,7 @@ myApp.get("/details",(req,res)=>
 myApp.get("/register",(req,res)=>
 {
     res.sendFile("./register.html",rootFolder);
+    
 })
 myApp.post("/register",(req,res) =>
 {
