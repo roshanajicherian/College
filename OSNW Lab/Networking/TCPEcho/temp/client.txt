@@ -1,0 +1,27 @@
+import java.util.*;
+import java.net.*;
+import java.io.*;
+
+class tcpclient {
+    public static void main(String args[]) throws Exception
+    {
+        InetAddress addr = InetAddress.getByName("Localhost");
+        Socket client = new Socket(addr,3000);
+
+        Scanner sc = new Scanner(client.getInputStream());
+        PrintWriter pw = new PrintWriter(client.getOutputStream());
+        
+        Scanner userEntry = new Scanner(System.in);
+        String message = "", response = "";
+        do
+        {
+            System.out.println("Enter the message : ");
+            message = userEntry.nextLine();
+            System.out.println("The message sent to the server is : "+message);
+            pw.println(message);
+            response = sc.nextLine();
+            System.out.println("SERVER Resoponse >> "+response);
+        }while(!message.equals("CLOSE"));
+        client.close();
+    }    
+}
